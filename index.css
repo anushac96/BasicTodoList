@@ -1,0 +1,35 @@
+#appName{
+    text-align: center;
+}
+
+#addTask{
+    background-color: green;
+    border: none;
+    height: 50px;
+    width: 80px;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+}
+
+#taskName, #dateField{
+    font-size: 15px;
+}
+
+.grid-taskListClass {
+    display: grid;
+    grid-template-columns: 200px 150px 100px; /* Three columns */
+    grid-gap: 20px; /* Gap between grid items */
+    margin-top: 30px;
+    align-items: center;
+}
+.deleteButton {
+    background-color: red;
+    border: none;
+    height: 50px;
+    width: 80px;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+}
+
